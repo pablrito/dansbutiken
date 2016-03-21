@@ -1,0 +1,19 @@
+
+<!-- PAGE - START -->
+<div id="page-wrapper" class="container {{$state.current.name}}">
+
+    <!-- Header -->
+    <div ng-include="'views/common/navigation.html'"></div>
+
+    <hr/>
+
+    <!-- Main view  -->
+    <div ui-view></div>
+
+    <hr/>
+
+    <!-- Footer -->
+    <div ng-include="'views/common/footer.html'"></div>
+        
+<!-- PAGE - END -->       
+</div>

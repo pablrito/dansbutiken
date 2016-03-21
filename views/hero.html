@@ -1,0 +1,18 @@
+
+    <div class="row">
+        <div class="col-xs-4">
+           <div class="box">
+                <h2>Categories</h2>
+                <ul>
+                     <a ui-sref="products.list({slug:'dansskor'})">dansskor</a>
+                </ul>
+            </div>
+        </div>
+        <div class="col-xs-4">
+            <div class="box">
+                <h2>Hero</h2>
+
+                <ng-post src="'http://intranet.dansbutiken.se/api/get_page/?slug=hero&callback=JSON_CALLBACK'"></ng-post>
+            </div>
+        </div>
+    </div>

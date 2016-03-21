@@ -1,0 +1,30 @@
+
+<!-- PAGE - START -->
+<div id="page-wrapper" class="container {{$state.current.name}}">
+
+    <!-- Header -->
+    <div ng-include="'views/common/navigation.html'"></div>
+
+    <hr/>
+
+    <div class="row">
+    	<div class="col-xs-2">
+	        <div class="box">
+            	<h2>Filter</h2>
+
+        	</div>
+        </div>
+	    <div class="col-xs-8">
+	       	<div class="box">
+	      		<div ui-view></div>
+	        </div>
+	    </div>
+    </div>
+
+    <hr/>
+
+    <!-- Footer -->
+    <div ng-include="'views/common/footer.html'"></div>
+        
+<!-- PAGE - END -->       
+</div>
